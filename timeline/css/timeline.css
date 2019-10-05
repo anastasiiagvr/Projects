@@ -1,0 +1,200 @@
+@font-face {
+    font-family: 'Mansalva', cursive;
+    src: url('https://fonts.googleapis.com/css?family=Mansalva&display=swap');
+}
+
+body {
+    background-color: #e6e4e4;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    color: #524e4e;
+    font-size: 53px;
+    font-weight: 400;
+    font-family: 'Mansalva', cursive;
+}
+
+h4 {
+    color: #7b7b7b;
+    font-size: 25px;
+    font-weight: 300;
+    margin: -30px 0 70px 0;
+    font-family: 'Mansalva', cursive;
+}
+
+.mid {
+/* Style for box */
+    width: 74px;
+    height: 29px;
+    border: 4px solid #eaeaea;
+    border-radius: 7px;
+    background: #9d9da7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+
+/* Style for text */
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.row {
+    display: flex;
+    min-height: 140px;
+    align-items: stretch;
+  }
+  
+.row-top {
+    margin-top: 90px; 
+}
+
+.row-bot {
+    margin-bottom: 90px;
+}
+
+.block {
+    align-items: center;
+    display: flex;
+    flex: 1 0 0;
+    padding: 3px;
+  }
+  
+.left-block {
+    justify-content: flex-end;
+  }
+  
+  
+.line {
+    background-color: #68babb;
+    position: relative;
+    width: 3px;
+    margin: -90px auto;
+  }
+  
+.line::before {
+    content: "";
+    display: block;
+    background-color: #68babb;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: -3px;
+    top: 50%;
+    left: -3.5px;
+  }
+    
+.tweet {
+    background-color: #ffffff;
+    border-radius: 5px;
+    display: flex;
+    padding: 10px;
+    width: auto;
+  }
+
+.font {
+    display: flex;
+    flex-direction: column;
+    line-height: 20px;
+    font-family: 'Mansalva', cursive;
+}
+
+.font-center {
+    text-align: center;
+}
+
+.font-right {
+    text-align: left;
+}
+
+.font-left {
+    text-align: right;
+}
+
+.image-logo {
+    display: flex;
+    align-items: center;
+}
+
+.image-right {
+    padding-right: 10px;
+}
+
+.image-left {
+    padding-left: 10px;
+}
+
+.point-right::before {
+    content:"\00A0";
+    display: block;
+    position: relative;
+    left: 7px;
+	width: 0;
+	height: 0;
+	border-top: 10px solid transparent;
+	border-right: 20px solid #ffffff;
+	border-bottom: 10px solid transparent;
+}
+
+.point-left::after {
+    content:"\00A0";
+    display: block;
+    position: relative;
+    left: -7px;
+	width: 0;
+	height: 0;
+    border-top: 10px solid transparent;
+	border-left: 20px solid #ffffff;
+    border-bottom: 10px solid transparent;
+}
+
+.point-center::before {
+    content:"\00A0";
+    display: block;
+    position: relative;
+    left: 160px;
+    top: -30px;
+    width: 0;
+	height: 0;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-bottom: 20px solid #ffffff;
+}
+
+.txt {
+    color: #6f6f6f;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.comment {
+    color: #9d9da7;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.date {
+    height: 9px;
+    color: #9d9da7;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 20px;
+}
+
+.bot {
+    color: #7b7b7b;
+    font-size: 11px;
+    font-weight: 300;
+    margin: 30px 0 20px 0;
+}
+
