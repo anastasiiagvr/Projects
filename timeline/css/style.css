@@ -100,6 +100,7 @@ h4 {
     display: flex;
     padding: 10px;
     width: auto;
+    z-index: 1;
   }
 
 .font {
@@ -198,3 +199,31 @@ h4 {
     margin: 30px 0 20px 0;
 }
 
+@media screen and (max-width: 576px) {
+    h1 {
+        font-size: 40px;
+        text-align: center;
+    }
+    h4 {
+        font-size: 20px;
+        text-align: center;
+    }
+    .txt {
+        font-size: 14px;
+    }
+    .comment {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 355px) {
+    .font {
+        line-height: 14px;
+    }
+    .txt {
+        font-size: 10px;
+    }
+    .comment {
+        font-size: 8px;
+    }
+}
